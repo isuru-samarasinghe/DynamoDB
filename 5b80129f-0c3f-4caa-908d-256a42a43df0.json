@@ -1,0 +1,163 @@
+{
+    "configuration":{
+       "account":"https://xxx.atlassian.net/",
+       "components":[
+          
+       ],
+       "customFields":[
+          
+       ],
+       "defaultFields":{
+          "labels":[
+             "localization",
+             "LOC_QA",
+             "Regression"
+          ]
+       },
+       "enableBacksync":true,
+       "fieldsMapping":{
+          "configurableCustomFields":[
+             {
+                "local":"component",
+                "remote":"components"
+             },
+             {
+                "local":"version",
+                "remote":"versions"
+             }
+          ]
+       },
+       "issueType":"10021",
+       "label":{
+          "createWith":"hello-xxx-loc",
+          "localSearchFor":"hello-xxx-loc",
+          "searchFor":"hello-xxx-loc"
+       },
+       "prefix":[
+          
+       ],
+       "projectId":"10038",
+       "severities":[
+          {
+             "local":"high",
+             "remote":"10001"
+          },
+          {
+             "local":"high",
+             "remote":"10000"
+          },
+          {
+             "local":"medium",
+             "remote":"10002"
+          },
+          {
+             "local":"low",
+             "remote":"10003"
+          },
+          {
+             "local":"low",
+             "remote":"10004"
+          }
+       ],
+       "states":[
+          {
+             "state":"open",
+             "steps":{
+                "1":[
+                   
+                ],
+                "3":[
+                   
+                ],
+                "10003":[
+                   {
+                      "remoteStateId":"10030"
+                   }
+                ],
+                "10008":[
+                   
+                ],
+                "10023":[
+                   
+                ],
+                "10025":[
+                   
+                ],
+                "10029":[
+                   
+                ],
+                "10030":[
+                   
+                ],
+                "10056":[
+                   
+                ],
+                "10102":[
+                   
+                ]
+             }
+          },
+          {
+             "state":"closed",
+             "steps":{
+                "1":[
+                   {
+                      "remoteStateId":"10003"
+                   }
+                ],
+                "3":[
+                   {
+                      "remoteStateId":"10003"
+                   }
+                ],
+                "10003":[
+                   
+                ],
+                "10008":[
+                   {
+                      "remoteStateId":"10003"
+                   }
+                ],
+                "10023":[
+                   {
+                      "remoteStateId":"10003"
+                   }
+                ],
+                "10025":[
+                   {
+                      "remoteStateId":"10003"
+                   }
+                ],
+                "10029":[
+                   {
+                      "remoteStateId":"10003"
+                   }
+                ],
+                "10030":[
+                   {
+                      "remoteStateId":"10003"
+                   }
+                ],
+                "10056":[
+                   {
+                      "remoteStateId":"10003"
+                   }
+                ],
+                "10102":[
+                   {
+                      "remoteStateId":"10003"
+                   }
+                ]
+             }
+          }
+       ],
+       "syncBuildVersion":false,
+       "syncComponent":false,
+       "syncConfigurableCustomFields":false,
+       "syncEnvironment":false,
+       "syncLabels":true,
+       "syncSeverity":true,
+       "urlTemplate":"https://xxx.atlassian.net//browse/{key}",
+       "workflow":"LOC Bug Workflow"
+    }
+ }
