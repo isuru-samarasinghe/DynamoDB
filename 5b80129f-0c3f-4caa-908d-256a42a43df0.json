@@ -40,23 +40,23 @@
        "severities":[
           {
              "local":"high",
-             "remote":"10001"
+             "remote":"20001"
           },
           {
              "local":"high",
-             "remote":"10000"
+             "remote":"20000"
           },
           {
              "local":"medium",
-             "remote":"10002"
+             "remote":"20002"
           },
           {
              "local":"low",
-             "remote":"10003"
+             "remote":"20003"
           },
           {
              "local":"low",
-             "remote":"10004"
+             "remote":"20004"
           }
        ],
        "states":[
